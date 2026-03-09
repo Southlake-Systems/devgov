@@ -10,7 +10,7 @@ const points = [
 
 export default function ProofOfProcess() {
   return (
-    <section className="py-28">
+    <section className="py-28 z-10">
       <Container>
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-center mb-12">
           Governance-Driven Development

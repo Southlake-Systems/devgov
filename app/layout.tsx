@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
   <body className="relative h-screen overflow-y-scroll snap-y snap-mandatory bg-[#05010a] text-white overflow-x-hidden antialiased">
-        {/* GLOBAL ATMOSPHERIC CANVAS */}
+        {/* GLOBAL ATMOSPHERIC CANVAS */} 
         <div className="fixed inset-0 -z-10 pointer-events-none">
 
           {/* Top glow */}
