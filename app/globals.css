@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
 /* === ROOT THEME === */
 :root {
   --bg-base: #05010a;

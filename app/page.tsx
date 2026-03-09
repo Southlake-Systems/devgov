@@ -5,11 +5,11 @@ import ProofOfProcess from "@/components/home/ProofOfProcess";
 
 export default function Home() {
   return (
-    <>
+    <div className="font-poppins">
       <HeroSection />
       <WhySection />
       <WhatWeBuild />
       <ProofOfProcess />
-    </>
+    </div>
   );
 }

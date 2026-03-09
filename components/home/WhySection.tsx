@@ -2,7 +2,7 @@ import Container from "../ui/Container";
 
 export default function WhySection() {
   return (
-    <section className="py-28">
+    <section className="py-28 min-h-screen">
       <Container>
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-center mb-12">
           Software Built With Accountability at the Core
@@ -12,7 +12,7 @@ export default function WhySection() {
           <p>Most development agencies sell speed. We sell ownership.</p>
 
           <p>
-            At DevGov, every sprint is documented.
+            At Southlake, every sprint is documented.
             Every milestone is tracked.
             Every line of code is reviewable.
           </p>
@@ -26,3 +26,4 @@ export default function WhySection() {
     </section>
   );
 }
+

@@ -11,7 +11,7 @@ const services = [
 
 export default function WhatWeBuild() {
   return (
-    <section className="py-28 bg-white/5">
+    <section className="py-28 min-h-screen">
       <Container>
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-center mb-12">
           From Idea to Infrastructure

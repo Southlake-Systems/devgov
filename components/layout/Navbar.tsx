@@ -3,10 +3,10 @@ import Container from "../ui/Container";
 
 export default function Navbar() {
   return (
-    <nav className="py-6">
+    <nav className="py-6 font-poppins ">
       <Container className="flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          DevGov
+          Southlake
         </Link>
 
         <div className="space-x-6 hidden md:block">
