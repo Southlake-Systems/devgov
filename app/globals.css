@@ -73,3 +73,35 @@
     }
   }
 }
+.ripple {
+  width: 420px;
+  height: 420px;
+  border-radius: 9999px;
+  border: 3px solid rgba(255,255,255,0.25);
+  animation: rippleAnim 7s linear infinite;
+  opacity: 0;
+}
+
+.ripple-delay {
+  animation-delay: 2.5s;
+}
+
+@keyframes rippleAnim {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.4;
+  }
+
+  70% {
+    opacity: 0.15;
+  }
+
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
