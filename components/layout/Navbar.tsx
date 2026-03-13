@@ -12,6 +12,7 @@ export default function Navbar() {
         <div className="space-x-6 hidden md:block">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/blog">Blog</Link>
         </div>
       </Container>
     </nav>
