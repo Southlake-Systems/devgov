@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
 .font-poppins {
   font-family: var(--font-poppins), sans-serif;
 }
@@ -16,7 +18,6 @@
     color: white;
   }
 }
-
 /* === HERO ATMOSPHERIC GLOW === */
 .hero-glow {
   position: absolute;
