@@ -11,7 +11,7 @@ export default async function Post(props: {
 
   return (
 <article
-  className="prose prose-invert max-w-3xl mx-auto py-20"
+  className="prose prose-invert max-w-3xl mx-auto py-20 font-poppins"
   dangerouslySetInnerHTML={{ __html: post.content }}
 />
   )
